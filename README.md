@@ -4,7 +4,7 @@
 
 1. Launch your Virtual Machine with your Udacity account
 2. Follow the instructions provided to SSH into your server
-3. Create a new user named grader
+3. Create a new user named grader (password: thiswouldbemoresecureinreallife)
 4. Give the grader the permission to sudo
 5. Update all currently installed packages
 6. Change the SSH port from 22 to 2200
@@ -12,6 +12,7 @@
 8. Configure the local timezone to UTC
 9. Have installed Apache2, but not configured with mod_wsgi yet (29 June)
 
+a. Installed `cron-apt` to automatically update packages, and `unattended-upgrades` to
 
 ## Steps outstanding
 
